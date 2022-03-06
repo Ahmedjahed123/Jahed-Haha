@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-23T05:01:11Z" name="Suite1" finished-at="2022-02-23T05:01:12Z" duration-ms="455">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Facebookqaf.runners.TestRunner@6e0f5f7f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-02-23T05:01:11Z" name="Nopackage" finished-at="2022-02-23T05:01:12Z" duration-ms="455">
+      <class name="com.Facebookqaf.runners.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.Facebookqaf.runners.TestRunner@6e0f5f7f]" started-at="2022-02-23T05:01:11Z" name="setUpClass" finished-at="2022-02-23T05:01:12Z" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Facebookqaf.runners.TestRunner@6e0f5f7f]" started-at="2022-02-23T05:01:12Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-23T05:01:12Z" duration-ms="149" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Log in to check facebook status"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login to facebook]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.Facebookqaf.runners.TestRunner@6e0f5f7f]" started-at="2022-02-23T05:01:12Z" name="tearDownClass" finished-at="2022-02-23T05:01:12Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.Facebookqaf.runners.TestRunner -->
+    </test> <!-- Nopackage -->
+  </suite> <!-- Suite1 -->
+</testng-results>
